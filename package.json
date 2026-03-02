@@ -1,7 +1,7 @@
 {
-  "name": "vnspoj.github.io",
+  "name": "vnmcoi.github.io",
   "version": "1.0.0",
-  "description": "Hướng dẫn và chia sẻ lời giải cho các problems trên vn.spoj.com.",
+  "description": "Lời giải cho các bài tập trong kho bài tập MCOJ",
   "main": "index.js",
   "scripts": {
     "start": "bundle exec jekyll serve",
@@ -9,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/vnspoj/vnspoj.github.io.git"
+    "url": "git+https://github.com/vnmcoi/vnmcoi.github.io"
   },
   "author": "vnspoj",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/vnspoj/vnspoj.github.io/issues"
+    "url": "https://github.com/vnmcoi/vnmcoi.github.io/issues"
   },
-  "homepage": "https://github.com/vnspoj/vnspoj.github.io#readme",
+  "homepage": "https://github.com/vnmcoi/vnmcoi.github.io#readme",
   "dependencies": {
     "eslint": "^5.0.1",
     "eslint-config-airbnb": "^17.0.0",
