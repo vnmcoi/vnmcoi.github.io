@@ -17,7 +17,7 @@ social:
   # - icon: fa-stack-overflow
   #   link: "//stackoverflow.com/users/8828489/huynhsamha"
   # - icon: fa-github
-  #   link: "//github.com/vnspoj"
+  #   link: "//github.com/vnmcoi"
   # - icon: fa-linkedin
   #   link: "//www.linkedin.com/in/huynhsamha"
   # - icon: fa-twitter
@@ -45,9 +45,9 @@ urls:
   # - text: XML Sitemap
   #   url: /sitemap.xml
   # - text: Join with us
-  #   url: //github.com/vnspoj
+  #   url: //github.com/vnmcoi
 
-url: "//vnspoj.github.io"
+url: "//vnmcoi.github.io"
 baseurl: ""
 permalink: /problems/:title:output_ext
 paginate: 20
