@@ -3,7 +3,7 @@ layout: post
 title:  "HELLOWORLD"
 categories: [basics]
 code: HELLOWORLD
-src: HELLOWORLD.CPP
+src: HELLOWORLD.cpp
 ---
 
 #### Yêu cầu
@@ -29,5 +29,6 @@ Hello, World!
 ```
 
 <!--more-->
+
 
 Sử dụng hàm \t {cout} để in dòng chữ ra màn hình.
