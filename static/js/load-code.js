@@ -15,7 +15,7 @@
 
     // fetch source from github
     $.ajax({
-      url: `https://vnmcoi.github.io/solution/src/${filename}`,
+      url: `https://raw.githubusercontent.com/vnmcoi/solution/master/src/${filename}`,
       dataType: 'text'
     })
       .done((code) => {
