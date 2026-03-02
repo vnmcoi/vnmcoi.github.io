@@ -1,15 +1,15 @@
-title: Solution for SPOJ
-description: Hướng dẫn và chia sẻ lời giải cho các problems trên vn.spoj.com
-author: Tutorial SPOJ
-github: //github.com/vnspoj
-about: Hướng dẫn và chia sẻ lời giải cho các problems trên vn.spoj.com
+title: Solution for MCOJ
+description: Lời giải cho các bài tập trong kho bài tập MCOJ
+author: MCOI
+github: //github.com/vnmcoi
+about: Lời giải cho các bài tập trong kho bài tập MCOJ
 # disqus_shortname: vnspoj
 google_analytics: UA-162061519-1
 avatar_url: /static/img/favicon.png
 email: tutorialspoj@gmail.com
 
-username: vnspoj
-repo: vnspoj.github.io
+username: vnmcoi
+repo: vnmcoi.github.io
 
 social:
   # - icon: fa-facebook
