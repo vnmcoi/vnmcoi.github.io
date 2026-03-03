@@ -1,6 +1,6 @@
 title: Marie Curie Olympiad in Informatics
 description: 
-author: MCOI
+author: Marie Curie Olympiad in Informatics
 github: //github.com/vnmcoi
 about: 
 # disqus_shortname: vnspoj
@@ -32,16 +32,6 @@ urls:
     url: /category
   - text: Search
     url: /search
-  - text: Wiki
-    url: /wiki
-  # - text: CodeLearn.io
-  #   url: /code-learn
-  # - text: Interview Questions
-  #   url: /top-interview-questions
-  # - text: XML Sitemap
-  #   url: /sitemap.xml
-  # - text: Join with us
-  #   url: //github.com/vnmcoi
 
 url: "//vnmcoi.github.io"
 baseurl: ""
