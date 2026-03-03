@@ -1,7 +1,7 @@
 {
   "name": "vnmcoi.github.io",
   "version": "1.0.0",
-  "description": "Lời giải cho các bài tập trong kho bài tập MCOJ",
+  "description": "",
   "main": "index.js",
   "scripts": {
     "start": "bundle exec jekyll serve",
