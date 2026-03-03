@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "HELLOWORLD"
-categories: [basics]
+categories: [basic]
 code: HELLOWORLD
 src: HELLOWORLD.cpp
 ---
