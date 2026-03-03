@@ -11,10 +11,6 @@ layout: default
   {% for post in site.wikivn %}
   {% assign post_url = post.url | replace: '.html', '' %}
   {% if post_url == url_vn %}
-  <div style="margin-top: 25px;">
-    <i>Translation into Vietnamese at <a href="{{ site.url }}{{ post_url }}">
-        {{ post.title }}</a></i>
-  </div>
   {% break %}
   {% endif %}
   {% endfor %}
