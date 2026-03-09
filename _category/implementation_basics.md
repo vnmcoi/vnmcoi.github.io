@@ -1,6 +1,6 @@
 ---
 layout: posts_by_category
-categories: basic
-title: Implementation_basics
+categories: Implementation_basics
+title: Implementation basics
 permalink: /category/implementation_basics
 ---

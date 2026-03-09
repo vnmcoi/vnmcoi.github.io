@@ -59,3 +59,10 @@ Trong đó chúng ta sẽ thấy để tính tổng của đoạn `[l; r]` thì 
 Vậy chúng ta gọi mảng `pref` là mảng tổng tiền tố (tức sẽ lưu tổng từ vị trí `1` đến `i` hay `pref[i] =` tổng của đoạn `[1; i]`).
 
 Khi đó tổng của truy vấn `[l; r]` chính là `pref[r] - pref[l - 1]`.
+
+Độ phức tạp thời gian:
+
+- Tiền xử lý mảng `pref`: `O(N)`.
+- Trả lời truy vấn: `O(1)`.
+
+Tổng độ phức tạp: `O(N + Q)`. Hoàn toàn chạy trong thời gian 1 giây với `N` và `Q` tối đa là `10^5`.
