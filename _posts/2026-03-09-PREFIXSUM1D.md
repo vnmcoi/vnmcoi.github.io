@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "PREFIXSUM1D"
-categories: [prefix_sum_difference_array]
+categories: [prefix_sum]
 code: PREFIXSUM1D
 src: PREFIXSUM1D.cpp
 ---

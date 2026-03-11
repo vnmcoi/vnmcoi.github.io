@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "KQUERY"
-categories: [fenwick_tree_basic, segment_tree_basic, segment_tree_binary_search]
+categories: [range_queries]
 code: KQUERY
 src: KQUERY.cpp
 ---
