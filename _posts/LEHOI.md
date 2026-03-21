@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "LEHOI"
-categories: [dp, greedy, sorting]
+categories: []
 code: LEHOI
 src: LEHOI.cpp
 ---
