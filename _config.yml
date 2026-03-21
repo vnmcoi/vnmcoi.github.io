@@ -11,25 +11,7 @@ email: tutorialspoj@gmail.com
 username: vnmcoi
 repo: vnmcoi.github.io
 
-social:
-  # - icon: fa-facebook
-  # link: "//facebook.com/huynhsamha"
-  # - icon: fa-stack-overflow
-  #   link: "//stackoverflow.com/users/8828489/huynhsamha"
-  # - icon: fa-github
-  #   link: "//github.com/vnmcoi"
-  # - icon: fa-linkedin
-  #   link: "//www.linkedin.com/in/huynhsamha"
-  # - icon: fa-twitter
-  #   link: "//twitter.com/huynhsamha"
-
-share:
-  # twitter_username: huynhsamha
-  # fb_appid: 1749788565247320
-
 urls:
-  - text: Categories
-    url: /category
   - text: Search
     url: /search
 
