@@ -1,0 +1,44 @@
+title: Marie Curie Olympiad in Informatics
+description: 
+author: Marie Curie Olympiad in Informatics
+github: //github.com/vnmcoi
+about: 
+google_analytics: UA-162061519-1
+avatar_url: /static/img/favicon.png
+email: vnmcoi@outlook.com
+
+username: vnmcoi
+repo: vnmcoi.github.io
+
+urls:
+  - text: Search
+    url: /search
+
+url: "//vnmcoi.github.io"
+baseurl: ""
+permalink: /problems/:title:output_ext
+paginate: 20
+per_page: 20
+paginate_path: "/page/:num/"
+markdown: kramdown
+kramdown:
+  math_engine: mathjax
+gems:
+  - jekyll-paginate
+  - jekyll-gist
+
+collections:
+  category:
+    output: true
+  wiki:
+    output: true
+  wikivn:
+    output: true
+
+compress_html:
+  clippings: all
+  comments: ["<!-- ", " -->"]
+  endings: all
+
+sass:
+  style: compressed
