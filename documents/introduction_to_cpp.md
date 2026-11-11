@@ -1,28 +1,5 @@
 # Tuần 1 — Giới thiệu về Competitive Programming và C++
 
-## Mục tiêu bài học
-
-Trước khi bắt đầu học các thuật toán và cấu trúc dữ liệu, chúng ta cần hiểu mình đang nghiên cứu lĩnh vực gì, những kiến thức nào sẽ được sử dụng và tại sao chúng lại quan trọng.
-
-Trong chương trình này, chúng ta sẽ tập trung vào một lĩnh vực có tên là **Competitive Programming (CP)**, hay còn gọi là thi đấu lập trình.
-
-Đây là một lĩnh vực kết hợp giữa tư duy toán học, thiết kế thuật toán và khả năng hiện thực hóa các giải pháp bằng ngôn ngữ lập trình.
-
-Trong tuần đầu tiên, chúng ta sẽ làm quen với những khái niệm nền tảng và các công cụ cần thiết để bắt đầu.
-
-Sau khi hoàn thành phần giới thiệu này, người đọc cần hiểu:
-
-1. Competitive Programming là gì và khác gì so với việc lập trình thông thường.
-2. Thuật toán là gì, một thuật toán được xây dựng như thế nào và tại sao cần nghiên cứu thuật toán.
-3. Mối quan hệ giữa thuật toán, cách giải quyết bài toán và chương trình máy tính.
-4. Vai trò của C++ và Python trong Competitive Programming.
-5. Những kiến thức C++ cơ bản cần thiết trước khi tiếp cận thuật toán.
-6. Cách sử dụng các tài liệu tham khảo trong quá trình tự học và nghiên cứu.
-
-Đây là phần giới thiệu và định hướng học tập. Các nội dung lập trình cụ thể sẽ được phát triển dần trong những bài học tiếp theo.
-
----
-
 ## 1. Competitive Programming — Thi đấu lập trình
 
 ### 1.1. Competitive Programming là gì?
@@ -139,7 +116,7 @@ Một cách giải là:
 Kết quả:
 
 $$
-\boxed{11}.
+\boxed{11}
 $$
 
 Đây là một thuật toán vì chúng ta đã xác định được một chuỗi bước thực hiện cụ thể để giải quyết bài toán.

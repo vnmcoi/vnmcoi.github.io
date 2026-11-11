@@ -1,22 +1,5 @@
 # Tuần 1 — Số nguyên và phép toán modulo
 
-## Mục tiêu bài học
-
-Trong tuần này, chúng ta sẽ xây dựng nền tảng về số nguyên và phép toán modulo.
-
-Sau khi hoàn thành bài học, người đọc cần có khả năng:
-
-1. Hiểu các tập hợp số cơ bản và mối quan hệ giữa chúng.
-2. Vận dụng các tính chất đại số của số nguyên.
-3. Hiểu định lý chia có dư và tính duy nhất của thương nguyên, số dư.
-4. Tính modulo với cả số nguyên dương và số nguyên âm.
-5. Sử dụng những tính chất cơ bản của modulo để rút gọn các biểu thức.
-6. Hiểu và chứng minh các tính chất chẵn lẻ bằng lập luận toán học.
-
-Bài học này tập trung vào số nguyên và phép toán modulo. Các nội dung về số nguyên tố, ước số, bội số và những tính chất chia hết sẽ được phát triển trong tuần 3.
-
----
-
 ## 1. Các thế giới toán học
 
 ### 1.1. Toán học được xây dựng như thế nào?

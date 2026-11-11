@@ -1,29 +1,5 @@
 # Tuần 2 — Mở rộng: Đồng dư và nghịch đảo modulo
 
-## Mục tiêu bài học
-
-Trong tuần 1, chúng ta đã tìm hiểu về tập hợp số nguyên, phép chia có dư và phép toán modulo.
-
-Chúng ta cũng đã biết rằng phép modulo không chỉ dùng để tìm số dư của một phép chia, mà còn giúp biểu diễn những mối quan hệ giữa các số nguyên.
-
-Trong tuần này, chúng ta sẽ tiếp tục phát triển những kiến thức đó để giải quyết các bài toán số học phức tạp hơn.
-
-Sau khi hoàn thành bài học, người đọc cần có khả năng:
-
-1. Hiểu khái niệm đồng dư modulo và những tính chất cơ bản của đồng dư.
-2. Giải các phương trình modulo đơn giản.
-3. Hiểu khái niệm ước chung lớn nhất và bội chung nhỏ nhất.
-4. Sử dụng thuật toán Euclid để tìm ước chung lớn nhất.
-5. Hiểu bổ đề Bézout và cách biểu diễn một số dưới dạng tổ hợp tuyến tính.
-6. Sử dụng thuật toán Euclid mở rộng để tìm các hệ số Bézout.
-7. Hiểu nghịch đảo modulo và điều kiện để nghịch đảo tồn tại.
-8. Vận dụng nghịch đảo modulo để giải phương trình đồng dư tuyến tính.
-9. Hiểu và áp dụng định lý nhỏ Fermat.
-
-Đây là tuần học chuyển từ việc thực hiện các phép toán modulo sang nghiên cứu những tính chất và phương pháp giải toán dựa trên modulo.
-
----
-
 ## 1. Ôn tập: Đồng dư modulo
 
 ### 1.1. Phép modulo là gì?
