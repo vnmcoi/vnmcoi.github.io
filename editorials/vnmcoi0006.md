@@ -1,4 +1,4 @@
-## 1. Bài toán đếm
+## Bài toán đếm
 
 Bài toán yêu cầu đếm số cách đặt hai quân mã trên bàn cờ $k \times k$ sao cho chúng không ăn nhau. Hai quân mã được xem là không phân biệt, vì vậy ta không đếm các hoán vị của cùng một cách đặt.
 
@@ -8,7 +8,7 @@ Một quân mã có thể ăn quân còn lại nếu hai quân nằm tại hai �
 
 Trong mỗi hình chữ nhật $2 \times 3$ hoặc $3 \times 2$, có đúng hai cách đặt hai quân mã để chúng ăn nhau. Vì vậy, ta có thể đếm số cặp ô mà hai quân mã có thể ăn nhau thông qua số hình chữ nhật thuộc hai kích thước này.
 
-## 2. Công thức đếm
+## Công thức đếm
 
 Trên bàn cờ $k \times k$, có tổng cộng $k^2$ ô. Ta chọn hai ô khác nhau để đặt hai quân mã, nên tổng số cách đặt là:
 

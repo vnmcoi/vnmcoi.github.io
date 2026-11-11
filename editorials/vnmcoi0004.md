@@ -1,4 +1,6 @@
-Để giải bài toán này, ta cần tìm quy luật phân bố các số trong number spiral dựa trên tọa độ hàng $y$ và cột $x$.
+## Phân tích ban đầu
+
+Để giải bài toán này, ta cần tìm quy luật phân bố các số trong vòng xoáy dựa trên tọa độ hàng $y$ và cột $x$.
 
 Đặt $m = \max(y, x)$. Các ô nằm trên đường viền của hình vuông có cạnh dài $m$ chứa các giá trị từ $(m - 1)^2 + 1$ đến $m^2$. Do đó, ta có thể bắt đầu từ giá trị lớn nhất $m^2$ rồi tính độ chênh lệch dựa trên vị trí của ô cần tìm.
 

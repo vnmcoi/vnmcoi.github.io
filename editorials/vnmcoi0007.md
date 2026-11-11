@@ -1,4 +1,4 @@
-## 1. Phân tích bài toán
+## Phân tích bài toán
 
 Việc tính trực tiếp $n!$ với $n$ có thể lên đến $10^9$ là không khả thi, vì kết quả sẽ có số lượng chữ số cực kỳ lớn. Tuy nhiên, bài toán không yêu cầu tính giá trị của $n!$, mà chỉ yêu cầu đếm số chữ số $0$ liên tiếp ở cuối kết quả.
 
@@ -10,7 +10,7 @@ Một chữ số $0$ ở cuối số nguyên được tạo ra khi tích có m�
 
 Trong tích $n!$, số thừa số $2$ luôn nhiều hơn số thừa số $5$. Do đó, số chữ số $0$ tận cùng chỉ phụ thuộc vào số lượng thừa số $5$.
 
-## 2. Đếm số thừa số $5$
+## Đếm số thừa số $5$
 
 Mỗi số chia hết cho $5$ đóng góp ít nhất một thừa số $5$ vào $n!$. Tuy nhiên, các số là lũy thừa của $5$ còn đóng góp thêm thừa số $5$.
 
@@ -27,6 +27,8 @@ Tổng quát, số chữ số $0$ tận cùng của $n!$ được tính bằng c
 $$ \boxed{ \left\lfloor \frac{n}{5} \right\rfloor + \left\lfloor \frac{n}{5^2} \right\rfloor + \left\lfloor \frac{n}{5^3} \right\rfloor +\cdots } $$
 
 Ta chỉ cần duyệt các lũy thừa $5^k$ không vượt quá $n$, cộng $\lfloor n/5^k \rfloor$ vào đáp án ở mỗi bước. Khi $5^k > n$, ta dừng thuật toán.
+
+Cách tiếp cận này có độ phức tạp thời gian $\mathcal {O} (\log_5 n)$ và độ phức tạp bộ nhớ phụ $\mathcal {O} (1)$.
 
 ```cpp
 #include <bits/stdc++.h>

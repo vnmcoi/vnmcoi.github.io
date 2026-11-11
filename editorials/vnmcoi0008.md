@@ -1,4 +1,4 @@
-## 1. Xây dựng hệ phương trình
+## Xây dựng hệ phương trình
 
 Ta cần xác định liệu có thể lấy hết số xu ở cả hai đống hay không. Trong mỗi lượt, ta có hai cách thực hiện:
 
@@ -13,7 +13,7 @@ $$ \begin{cases} x + 2y = a \\\ 2x + y = b \end{cases} $$
 
 Trong đó, $x,y$ phải là các số nguyên không âm vì chúng biểu diễn số lượt thực hiện mỗi thao tác.
 
-## 2. Khai triển hệ phương trình
+## Khai triển hệ phương trình
 
 Từ phương trình đầu tiên:
 

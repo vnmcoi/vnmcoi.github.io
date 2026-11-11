@@ -1,4 +1,4 @@
-## 1. Tham lam
+## Phân tích ban đầu
 
 Ta cần biến đổi mảng thành một mảng không giảm, tức là $x_i \ge x\_{i-1}$ với mọi $i \ge 2$, bằng cách tăng giá trị các phần tử. Để đạt được số bước tối thiểu, tại mỗi vị trí $i$, ta chỉ tăng $x_i$ khi giá trị của nó nhỏ hơn giá trị lớn nhất đã gặp trước đó.
 
@@ -17,16 +17,16 @@ Ví dụ với mảng:
 
 Tổng số bước tối thiểu là $1 + 4 = 5$.
 
-## 2. Tối ưu thuật toán duyệt
+## Tối ưu hóa bài toán
 
-Một cách tiếp cận trực tiếp là tại mỗi vị trí $i$, duyệt lại các phần tử đứng trước để tìm giá trị lớn nhất. Tuy nhiên, cách này có độ phức tạp thời gian $O(n^2)$, không phù hợp với giới hạn $n \le 2 \cdot 10^5$.
+Một cách tiếp cận trực tiếp là tại mỗi vị trí $i$, duyệt lại các phần tử đứng trước để tìm giá trị lớn nhất. Tuy nhiên, cách này có độ phức tạp thời gian $\mathcal {O} (n^2)$, không phù hợp với giới hạn $n \le 2 \cdot 10^5$.
 
 Thay vào đó, ta sử dụng biến `mx` để lưu giá trị lớn nhất đã gặp trong quá trình duyệt mảng. Với mỗi phần tử $x_i$:
 
 - Cập nhật `mx = max(mx, x[i])`.
 - Cộng `mx - x[i]` vào đáp án. Đây chính là số bước cần thiết để tăng phần tử hiện tại lên giá trị phù hợp.
 
-Vì mỗi phần tử chỉ được duyệt một lần, thuật toán có độ phức tạp thời gian $O(n)$ và độ phức tạp bộ nhớ phụ $O(1)$ nếu không tính bộ nhớ lưu mảng.
+Vì mỗi phần tử chỉ được duyệt một lần, thuật toán có độ phức tạp thời gian $\mathcal {O} (n)$ và độ phức tạp bộ nhớ phụ $\mathcal {O} (1)$ nếu không tính bộ nhớ lưu mảng.
 
 ```cpp
 #include <bits/stdc++.h>

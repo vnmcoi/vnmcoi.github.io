@@ -1,6 +1,10 @@
-**Trường hợp cơ sở:** Với $n = 1$, ta có hai xâu bit có thể tạo thành là $0$ và $1$.
+## Trường hợp cơ sở
 
-**Hệ thức đệ quy:** Với mỗi $n > 1$, ta có thể tạo ra các xâu bit độ dài $n$ bằng cách thêm $0$ hoặc $1$ vào cuối mỗi xâu bit có độ dài $n - 1$. Vì mỗi xâu bit có thể tạo ra hai xâu mới, số lượng xâu bit độ dài $n$ gấp đôi số lượng xâu bit độ dài $n - 1$.
+Với $N = 1$, ta có hai xâu bit có thể tạo thành là $0$ và $1$.
+
+## Hệ thức đệ quy
+
+Với mỗi $N > 1$, ta có thể tạo ra các xâu bit độ dài $N$ bằng cách thêm $0$ hoặc $1$ vào cuối mỗi xâu bit có độ dài $N - 1$. Vì mỗi xâu bit có thể tạo ra hai xâu mới, số lượng xâu bit độ dài $n$ gấp đôi số lượng xâu bit độ dài $N - 1$.
 
 ```cpp
 #include <bits/stdc++.h>
